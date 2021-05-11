@@ -9,5 +9,5 @@ bucket = './'
 entry-point = "workers-site"
 
 [env.production]
-route = 'citystacks.co/*'
+route = '*citystacks.co/*'
 zone_id = 'f88e7e476294b883dbea0799cd454e40'
