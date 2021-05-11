@@ -1,9 +1,12 @@
 name = "citystacks-prod"
-type = 'webpack'
 account_id = '6f54e90da6d1b280fe00a153cb394c68'
+type = 'webpack'
 workers_dev = true
-target_type = "webpack"
-site = {bucket = "",entry-point = "workers-site"}
+# target_type = "webpack"
+
+[site]
+bucket = './'
+entry-point = "workers-site"
 
 [env.production]
 route = 'citystacks.co/*'
