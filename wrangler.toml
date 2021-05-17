@@ -10,4 +10,4 @@ entry-point = "workers-site"
 
 [env.production]
 route = '*citycoins.co/*'
-zone_id = 'f88e7e476294b883dbea0799cd454e40'
+zone_id = '3e5041a8cc83842af0c2734fe6b33adc'
