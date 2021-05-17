@@ -1,4 +1,4 @@
-name = "citystacks-prod"
+name = "citycoins"
 account_id = '6f54e90da6d1b280fe00a153cb394c68'
 type = 'webpack'
 workers_dev = true
@@ -9,5 +9,5 @@ bucket = './'
 entry-point = "workers-site"
 
 [env.production]
-route = '*citystacks.co/*'
+route = '*citycoins.co/*'
 zone_id = 'f88e7e476294b883dbea0799cd454e40'
